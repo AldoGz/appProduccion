@@ -1,0 +1,29 @@
+.loader{
+	opacity: .75;
+	background: black;
+	width: 100%;
+	height: 10000px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100001;
+}
+
+.loader.off{
+	display: none !important;
+}
+
+.loader > p{
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    color: white;   
+}
+
+.tr-seleccionado{
+	background-color: #d3cfcf !important;
+    opacity: .8;
+    color: white;
+    font-weight: bold;
+}

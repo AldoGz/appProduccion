@@ -1,0 +1,104 @@
+<html>
+<head>
+	<title>PAGO</title>
+</head>
+<body>
+<TABLE BORDER>
+<tbody><tr><td class="error" align="center" colspan="5" height="30"> <script language="" "javascript"="">llenarMensajeError();</script>
+  </td>
+  </tr>  
+  <tr>
+   <td colspan="5"><img name="recibo_bcp_r1_c1" src="../../imagenes/pago/recibo_bcp_r1_c1.jpg" width="383" height="77" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="8"><img name="recibo_bcp_r2_c1" src="../../imagenes/pago/recibo_bcp_r2_c1.jpg" width="42" height="603" border="0" alt=""></td>
+   <td valign="top"><div align="center">
+                            <input maxlength="4" size="4" name="codigoAgencia" onchange="javascript:this.value=this.value.toUpperCase();">
+        </div></td>
+   <td rowspan="8"><img name="recibo_bcp_r2_c3" src="../../imagenes/pago/recibo_bcp_r2_c3.jpg" width="25" height="603" border="0" alt=""></td>
+   <td><table align="left" border="0" cellpadding="0" cellspacing="0" width="185">
+	  <tbody><tr>
+	   <td><img name="recibo_bcp_r2_c4" src="../../imagenes/pago/recibo_bcp_r2_c4.jpg" width="35" height="30" border="0" alt=""></td>
+	   <td valign="top">
+                                       <table>
+           <tbody><tr>
+                                <td valign="center" align="middle" width="49"><select name="diaTramite"> <option value="D" selected="">D</option> <option value="01">01</option> 
+                                <option value="02">02</option> <option value="03">03</option> <option value="04">04</option> <option value="05">05</option> <option value="06">06</option> <option value="07">07</option> <option value="08">08</option> <option value="09">09</option> <option value="10">10</option> <option value="11">11</option> <option value="12">12</option> <option value="13">13</option> <option value="14">14</option> <option value="15">15</option> <option value="16">16</option> <option value="17">17</option> <option value="18">18</option> <option value="19">19</option> <option value="20">20</option> <option value="21">21</option> <option value="22">22</option> <option value="23">23</option> <option value="24">24</option> <option value="25">25</option> <option value="26">26</option> <option value="27">27</option> <option value="28">28</option> <option value="29">29</option> <option value="30">30</option> <option value="31">31</option></select> </td>
+                                <td valign="center" align="middle" width="61"><select onchange="opcionCambiosDias();" name="mesTramite"> 
+                                <option selected="">M</option> <option value="01">Ene</option> <option value="02">Feb</option> <option value="03">Mar</option> <option value="04">Abr</option> <option value="05">May</option> <option value="06">Jun</option> <option value="07">Jul</option> <option value="08">Ago</option> <option value="09">Set</option> <option value="10">Oct</option> <option value="11">Nov</option> <option value="12">Dic</option></select> </td>
+                                <td valign="center" align="middle" width="62"><select onchange="opcionCambiosDias();" name="agnoTramite"> 
+                                <script language="JavaScript">
+                                llenarAgnosTramite();
+                                </script><option>AA</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+
+                                </select> </td></tr>
+           </tbody></table>           
+	  </td>
+	  </tr>
+	</tbody></table></td>
+   <td rowspan="8"><img name="recibo_bcp_r2_c7" src="../../imagenes/pago/recibo_bcp_r2_c7.jpg" width="73" height="603" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="7"><img name="recibo_bcp_r3_c2" src="../../imagenes/pago/recibo_bcp_r3_c2.jpg" width="58" height="573" border="0" alt=""></td>
+   <td><img name="recibo_bcp_r3_c4" src="../../imagenes/pago/recibo_bcp_r3_c4.jpg" width="185" height="343" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><table align="left" border="0" cellpadding="0" cellspacing="0" width="185">
+	  <tbody><tr>
+	   <td><img name="recibo_bcp_r4_c4" src="../../imagenes/pago/recibo_bcp_r4_c4.jpg" width="35" height="30" border="0" alt=""></td>
+	   <td valign="top"><div align="center">
+                              <input onchange="javascript:this.value=this.value.toUpperCase();" maxlength="1" size="2" name="digitoVerificacion">
+                            </div></td>
+	   <td><img name="recibo_bcp_r4_c6" src="../../imagenes/pago/recibo_bcp_r4_c6.jpg" width="106" height="30" border="0" alt=""></td>
+	  </tr>
+	</tbody></table></td>
+  </tr>
+  <tr>
+   <td><img name="recibo_bcp_r5_c4" src="../../imagenes/pago/recibo_bcp_r5_c4.jpg" width="185" height="9" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td valign="top"><table align="left" border="0" cellpadding="0" cellspacing="0" width="185">
+	  <tbody><tr>
+	   <td valign="top"><div align="center">
+	     			<input onkeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" maxlength="10" size="10" name="numeroRecibo"><!--
+                            </div--></div></td>
+	   <td><img name="recibo_bcp_r6_c6" src="../../imagenes/pago/recibo_bcp_r6_c6.jpg" width="106" height="30" border="0" alt=""></td>
+	  </tr>
+	</tbody></table></td>
+  </tr>
+  <tr>
+   <td><img name="recibo_bcp_r7_c4" src="../../imagenes/pago/recibo_bcp_r7_c4.jpg" width="185" height="9" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td valign="top"><table align="left" border="0" cellpadding="0" cellspacing="0" width="185">
+	  <tbody><tr>
+	   <td valign="top"><div align="center">
+                            <input onkeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;" name="codigoTributo" maxlength="5" size="6">
+              </div></td>
+	   <td><img name="recibo_bcp_r8_c6" src="../../imagenes/pago/recibo_bcp_r8_c6.jpg" width="106" height="30" border="0" alt=""></td>
+	  </tr>
+	</tbody></table></td>
+  </tr>
+  <tr>
+   <td><img name="recibo_bcp_r9_c4" src="../../imagenes/pago/recibo_bcp_r9_c4.jpg" width="185" height="122" border="0" alt=""></td>
+  </tr>
+</tbody>
+</TABLE>
+</body>
+</html>

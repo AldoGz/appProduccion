@@ -1,0 +1,22 @@
+body{
+    margin: 0 px;
+    padding: 0 px;
+}
+
+#titulo{
+    text-align: center;
+}
+
+#derecha{
+    text-align: right;
+}
+
+.anulado{
+    text-decoration: line-through;
+    color: red;
+}
+
+.negrita{
+    font-weight: bolder;
+    
+}
